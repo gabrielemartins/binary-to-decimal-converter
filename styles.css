@@ -20,3 +20,8 @@ input {
 input:invalid {
     border: 1px solid #da6262;
 }
+
+.error {
+    text-align: center;
+    color: #8f1010;
+}
