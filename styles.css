@@ -8,3 +8,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+input {
+    outline: none;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    min-width: 300px;
+}
