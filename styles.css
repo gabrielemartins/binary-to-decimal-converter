@@ -2,5 +2,9 @@ body {
     background-color: #e2e4f3;
     color: #0a0a0a;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
