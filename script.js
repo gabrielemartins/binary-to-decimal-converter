@@ -26,5 +26,8 @@ function binaryToDecimal() {
         }
         result.innerHTML = "result: " + total;
         error.innerHTML = "";
+    } else {
+        result.innerHTML = "";
+        error.innerHTML = "invalid input, try type only 0 and 1";
     }
 }
