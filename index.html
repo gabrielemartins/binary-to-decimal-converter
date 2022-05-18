@@ -11,8 +11,13 @@
         <main>
             <h1>Bin2Dec</h1>
             <p class="error"></p>
-            <input placeholder="enter a binary number" pattern="[0-1]+" />
+            <input
+                placeholder="enter a binary number"
+                pattern="[0-1]+"
+                oninput="binaryToDecimal()"
+            />
             <p class="result-text"></p>
         </main>
+        <script src="./script.js"></script>
     </body>
 </html>
